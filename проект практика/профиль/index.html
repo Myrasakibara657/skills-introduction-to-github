@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профиль</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <img src="логотип.png" class="logo">
+        </header>
+
+        <main>
+            <div class="main-panel">
+                <div class="profile-sidebar">
+                    <div class="sidebar-buttons">
+                        <button class="sidebar-button active">Профиль</button>
+                        <button class="sidebar-button">Личные данные</button>
+                        <button class="sidebar-button">Заказы</button>
+                        <button class="sidebar-button">Избранное</button>
+                    </div>
+                </div>
+
+                <div class="profile-content">
+                    <div class="profile-header">
+                        <h2>Профиль</h2>
+                        <div class="form-group">
+                            <label for="fullName">Фамилия Имя пользователя</label>
+                            <input type="text" id="fullName" placeholder="Введите ваше имя">
+                        </div>
+                        <div class="form-group">
+                            <label for="contact">Контактный телефон</label>
+                            <input type="tel" id="contact" placeholder="Введите ваш телефон">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Электронная почта</label>
+                            <input type="email" id="email" placeholder="Введите вашу почту">
+                        </div>
+                        <div class="form-group">
+                            <label for="activeOrders">Активные заказы</label>
+                           
+                        </div>
+                        <p class="no-orders">У вас нет активных заказов</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recommendations">
+                <h3>Рекомендации по вашим интересам</h3>
+                <div class="recommendation-items">
+                    <div class="recommendation-item"></div>
+                    <div class="recommendation-item"></div>
+                    <div class="recommendation-item"></div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-section">
+                <h3>Обслуживание клиентов</h3>
+                <ul>
+                    <li><a href="#">Отслеживать заказ</a></li>
+                    <li><a href="#">Транспортировка</a></li>
+                    <li><a href="#">Возвраты</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Компания</h3>
+                <ul>
+                    <li><a href="#">Поддержка</a></li>
+                    <li><a href="#">Лицензирование</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Контакты</h3>
+                <ul>
+                    <li>8 325 658 98 28</li>
+                    <li>VirtualLife@mail.ru</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Подпишись на полезные новости</h3>
+                <div class="newsletter">
+                    <input type="email" placeholder="E-mail">
+                    <button>Подписаться</button>
+                </div>
+                <label>
+                  <input type="checkbox"> Согласие на Обработку персональных данных и получение рекламных сообщений
+                </label>
+                <br>
+                <div>
+                    <img src="рутуб.png" alt="Rutube" class="footer-icon">
+                    <img src="телеграмм.png" alt="telegram" class="footer-icon">
+                    <img src="тикток.png" alt="TikTok" class="footer-icon">
+                    <img src="вк.png" alt="VK" class="footer-icon">
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>

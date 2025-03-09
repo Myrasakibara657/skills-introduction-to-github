@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заказы</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <img src="логотип.png" class="logo">
+        </header>
+
+        <main>
+            <div class="main-panel">
+                <div class="profile-sidebar">
+                    <div class="sidebar-buttons">
+                        <button class="sidebar-button profile">Профиль</button>
+                        <button class="sidebar-button">Личные данные</button>
+                        <button class="sidebar-button orders">Заказы</button>
+                        <button class="sidebar-button">Избранное</button>
+                    </div>
+                </div>
+
+                <div class="profile-content" style="width: 1122px; height: 452px; position: relative;">
+                    <div class="profile-header">
+                        <h2 class="orders-header">ЗАКАЗЫ</h2>
+                        <div class="filter">
+                            <select id="orderFilter" class="input-field">
+                                <option>Все заказы</option>
+                                <option>В обработке</option>
+                                <option>В пути</option>
+                                <option>Отмененные заказы</option>
+                            </select>
+                        </div>
+                        <p class="no-orders">У вас пока нет заказов</p>
+                        <div class="cart-container">
+                            <img src="корзина.png" alt="Корзина" class="cart-icon"> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recommendations">
+                <h3>Рекомендации по вашим интересам</h3>
+                <div class="recommendation-items">
+                    <div class="recommendation-item"></div>
+                    <div class="recommendation-item"></div>
+                    <div class="recommendation-item"></div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-section">
+                <h3>Обслуживание клиентов</h3>
+                <ul>
+                    <li><a href="#">Отслеживать заказ</a></li>
+                    <li><a href="#">Транспортировка</a></li>
+                    <li><a href="#">Возвраты</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Компания</h3>
+                <ul>
+                    <li><a href="#">Поддержка</a></li>
+                    <li><a href="#">Лицензирование</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Контакты</h3>
+                <ul>
+                    <li>8 325 658 98 28</li>
+                    <li>VirtualLife@mail.ru</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Подпишись на полезные новости</h3>
+                <div class="newsletter">
+                    <input type="email" placeholder="E-mail">
+                    <button>Подписаться</button>
+                </div>
+                <label>
+                  <input type="checkbox"> Согласие на Обработку персональных данных и получение рекламных сообщений
+                </label>
+                <br>
+                <div>
+                    <img src="рутуб.png" alt="Rutube" class="footer-icon">
+                    <img src="телеграмм.png" alt="telegram" class="footer-icon">
+                    <img src="тикток.png" alt="TikTok" class="footer-icon">
+                    <img src="вк.png" alt="VK" class="footer-icon">
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
+
